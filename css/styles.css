@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #003C52;
+  color: #131936;
 }
 
 
@@ -17,19 +17,33 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 350%;
+  font-size: 56px;
   line-height: 1.5;
+  padding-bottom: 35px;
+  color: #1abc9c;
+
 }
 
 .section-heading {
-  font-size: 300%;
+  font-size: 48px;
   line-height: 1.5;
+}
+
+.slider-section{
+  text-align: center;
+
+}
+
+.slider-text {
+  padding-bottom:35px;
+
 }
 
 /* Containers */
 
 .container-fluid{
   padding: 7% 15%;
+
 }
 
 /* Sections */
@@ -37,6 +51,7 @@ p {
 .colored-section {
   background-color: #ef8172;
   color: #fff;
+
 }
 
 .white-section {
@@ -47,12 +62,14 @@ p {
 
 .navbar {
   padding: 0 0 56px;
+  color: #004C7F;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 40px;
   font-weight: bold;
+
 }
 
 .nav-item {
@@ -67,9 +84,8 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ef8172;
-  color: #fff;
-  text-align: left;
+  background-color: #f1f1f1;
+
 }
 
 #title .container-fluid {
@@ -78,7 +94,7 @@ p {
 
 /* Title Image */
 
-.title-image {
+/* .title-image {
   width: 30%;
   transform: rotate(25deg);
   position: absolute;
@@ -86,7 +102,7 @@ p {
   border-radius: 100%;
 
 
-}
+} */
 
 /* Features Section */
 
@@ -160,7 +176,6 @@ p {
 
 /* Solutions Section */
 .solutions-heading{
-  padding-top: 10px;
   padding-bottom: 50px;
 }
 
