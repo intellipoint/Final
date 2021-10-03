@@ -1,236 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IntelliPoint</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IntelliPoint</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-</head>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
 
-<body>
+  <body>
 
-  <section class="colored-section" id="title">
-
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-
-        <a class="navbar-brand" href="">IntelliPoint</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand brand-name" href=""><span class="brand-name-span1">Intelli</span><span class="brand-name-span2">Point</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link active" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
+              <a class="nav-link active" href="#footer">Help</a>
             </li>
+
           </ul>
-
         </div>
-      </nav>
+      </div>
+    </nav>
 
+    <!-- Slider section -->
 
-      <!-- Title -->
+    <section class="colored-section" id="slider">
+
+      <div id="slider-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="slider-text">Outsource a qualified Accountant today to deliver the right solutions that your business needs</h2>
+            <img class="slider-image" src="images/Background.jpeg" alt="">
+            <em>Have a cup of coffee, let's discuss business!!!</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="slider-text">We design fast and furious web applications. Don't loose customers due to slow websites</h2>
+            <img class="slider-image" src="images/Background.jpeg" alt="">
+            <em>Have a cup of coffee, let's discuss business!!!</em>
+          </div>
+        </div>
+          <a class="carousel-control-prev" href="#slider-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#slider-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+      </div>
+
+    </section>
+
+    <!-- Business Solutions -->
+    <section class="container solutions-section">
+      <div class="solutions-heading">
+        <h2>Patnering for Business Excellence</h2>
+      </div>
+      <div class="solutions-text">
+        <p >At Intellect Africa Group (Pty) Ltd t/a IntelliPoint, business solutions involve much more than just ticking the checkboxes. It is about the partnership that we build to provide solutions that best suite businesses and individuals needs.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <i class="icon fas fa-briefcase fa-3x"></i>
+              <h5 class="card-title">Business</h5>
+              <p class="card-text">Deploying teams to deliver world class Accounting, Advisory, Taxation and Marketing solutions to small businesses and individuals.</p>
+              <a href="#pricing" class="btn btn-outline-dark">Our Packages</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <i class="icon fas fa-user fa-3x"></i>
+              <h5 class="card-title">Training</h5>
+              <p class="card-text">We assist corporates in the implementation of new and existing financial standards by giving guidance and training.</p>
+              <a href="#pricing" class="btn btn-outline-dark">Our Packages</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <i class="icon fas fa-bullseye fa-3x"></i>
+              <h5 class="card-title">Dedicated Accountant</h5>
+              <p class="card-text">Outsource a qualified and experienced Chartered Accountant for your business or on a personal account today.</p>
+              <a href="#pricing" class="btn btn-outline-dark">Our Packages</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="call-to-action-section" id="cta">
+
+      <div class="container-fluid">
+
+        <h3 class="solutions-heading">Having Trouble Choosing?</h3>
+        <p class="solutions-text">Reach out to support</p>
+        <button class="download-button btn btn-lg btn-outline-dark" type="button"> 011 083 7784</button>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section container" id="pricing">
+
+      <h2 class="pricing-heading">Small Business Plans</h2>
+      <p class="solutions-text">Our pricing plans are based on turnover aimed at empowering small businesses by providing the exact solutions they require to establish businesses, remain compliant and competitive against their competitors at affordable rates.</p>
 
       <div class="row">
 
-        <div class="slider-section">
-          <h1 class="big-heading">Patnering for business excellence</h1>
-          <p class="slider-text">At Intellect Africa Group (Pty) Ltd t/a IntelliPoint, business solutions involve much more than just ticking the checkboxes. It is about the partnership that we build to provide solutions that best suite businesses and individuals needs.</p>
-          <a href="#pricing"><button type="button" class="btn btn-dark btn-lg">Small Businesses Solutions</button></a>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- Features -->
-
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-      <h2 class="solutions-heading">Our Solutions</h2>
-      <div class="row">
-        <div class="feature-box col-lg-6">
-          <i class="icon fas fa-briefcase fa-4x"></i>
-          <h3 class="feature-title">Business</h3>
-          <p>There are a number of challenges that small businesses face in relation to their day-to-day operation of their Marketing, Finance and Accounting functions. Constant pressure to balance between operations and administrative functions is one of the major reasons for noncompliance. To reduce the burden on business owners, IntelliPoint provides innovative outsourced accounting, marketing and advisory solutions aimed at reducing costs and unlocking process efficiencies.</p>
-        </div>
-
-        <div class="feature-box col-lg-6">
-          <i class="icon fas fa-university fa-4x"></i>
-          <h3 class="feature-title">Training</h3>
-          <p>We assist corporates in the implementation of new and existing financial standards by giving guidance and training to the affected departments. With our technical teams we provide seminars based on the corporates needs. In addition, Varsity students are faced with challenging problems to solve in management accounting and financial accounting. Our lecturers deliver unparalleled private online lessons to students registered at their respective universities.</p>
-        </div>
-
-      </div>
-
-
-    </div>
-  </section>
-
-
-  <!-- Testimonials -->
-
-  <section class="colored-section" id="testimonials">
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">Outsource a qualified Accountant today to deliver the right solutions that your business needs.</h2>
-          <img class="testimonial-image" src="images/business-coffee.png" alt="business-coffee">
-          <em> Have a cup of coffee, let's discuss business!!!</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">We design fast and furious websites. Don't loose customers due to slow websites.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em> Have a cup of coffee, let's discuss business!!!</em>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-
-  </section>
-
-
-  <!-- Sunscriptions -->
-
-  <section class="colored-section" id="subscriptions">
-    <h2 class="subscriptions-heading">Our Subscriptions</h2>
-    <img class="subscriptions-logo" src="images/xero.png" alt="Xero Certified Adviser">
-    <img class="subscriptions-logo" src="images/saica.jpg" alt="Member of Saica">
-    <img class="subscriptions-logo" src="images/cipc.png" alt="Registered Company">
-    <img class="subscriptions-logo" src="images/sars.png" alt="Registers with SARS">
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section class="white-section" id="pricing">
-
-    <h2 class="section-heading">Small Business Plans</h2>
-    <p>Our pricing plans are based on turnover aimed at empowering small businesses by providing the exact solutions they require to establish businesses, remain compliant and competitive against their competitors at affordable rates.</p>
-
-    <div class="row">
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Company Fundamentals</h3>
+        <div class="pricing-column col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Company Fundamentals</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">R250 / mo</h2>
+              <p>Company registration certificate</p>
+              <p>Share certificates for all shareholders</p>
+              <p>Income tax registration number</p>
+              <p>Company name reservation</p>
+              <p>Micro Web Application</p>
+              <p>Tax certificate</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
           </div>
-          <div class="card-body">
-            <h2 class="price-text">R250 / mo</h2>
-            <p>Company registration certificate</p>
-            <p>Share certificates for all shareholders</p>
-            <p>Income tax registration number</p>
-            <p>Company name reservation</p>
-            <p>Micro Web Application</p>
-            <p>Tax certificate</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+        </div>
+
+        <div class="pricing-column col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Advisory Services</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">R250 / mo</h2>
+              <p>Annual Financial Statements Preparation</p>
+              <p>Annual Financial Statements Review</p>
+              <p>Business Consulting Services</p>
+              <p>Management Accounting</p>
+              <p>Company Profiles</p>
+              <p>Business Plans</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-sm-12 col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Outsourced Accounting</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">R250 / mo</h2>
+              <p>A Dedicated Accountant</p>
+              <p>Bookkeeping and Payroll Services</p>
+              <p>Support with Technical Queries</p>
+              <p>Monthly Management Accounts</p>
+              <p>Annual Financial Statements</p>
+              <p>Statutory Compliance</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Advisory Services</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">R250 / mo</h2>
-            <p>Annual Financial Statements Preparation</p>
-            <p>Annual Financial Statements Review</p>
-            <p>Business Consulting Services</p>
-            <p>Management Accounting</p>
-            <p>Company Profiles</p>
-            <p>Business Plans</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-          </div>
-        </div>
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2021 Intellect Africa Group</p>
       </div>
+    </footer>
 
-      <div class="pricing-column col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Outsourced Accounting</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">R250 / mo</h2>
-            <p>A Dedicated Accountant</p>
-            <p>Bookkeeping and Payroll Services</p>
-            <p>Support with Technical Queries</p>
-            <p>Monthly Management Accounts</p>
-            <p>Annual Financial Statements</p>
-            <p>Statutory Compliance</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="cta">
-
-    <div class="container-fluid">
-
-      <h3 class="big-heading">Contact Support</h3>
-      <button class="btn btn-lg btn-dark" type="button"><i class="fas fa-phone-volume"></i> 011 083 7784</button>
-
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <a href="https://twitter.com/group_intellect"><i class="social-icon fab fa-twitter"></i></a>
-      <a href="https://www.facebook.com/intellectafricagroup"><i class="social-icon fab fa-facebook-f"></i></a>
-      <a href="mailto:support@intellipoint.co.za"><i class="social-icon fas fa-envelope"></i></a>
-      <p>© Copyright 2018-2021 Intellect Africa Group</p>
-    </div>
-  </footer>
-
-
-</body>
-
+  </body>
 </html>
